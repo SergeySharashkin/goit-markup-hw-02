@@ -50,7 +50,7 @@ body {
   color: var(--accent-color);
 }
 .contacts .mail {
-  color: var(--primary-text-color);
+  color: var(--tittle-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -59,7 +59,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts .tel {
-  color: var(--primary-text-color);
+  color: var(--tittle-text-color);
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
@@ -119,6 +119,9 @@ body {
   background-color: var(--accent-color);
   color: var(--hero-text-color);
 }
+.features {
+  display: none;
+}
 .features-item {
   font-style: normal;
   font-weight: bold;
@@ -138,6 +141,9 @@ body {
   font-size: 36px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+}
+.team {
+  background-color: var(--button-bgr-color);
 }
 .team-tittle {
   font-style: normal;
@@ -202,15 +208,20 @@ body {
 }
 
 /*Portfolio style*/
+.portfolio-tittle,
+.choice-tittle,
+.work {
+  display: none;
+}
 .work-list a {
   text-decoration: none;
 }
 .work-item {
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
+  color: var(--primary-text-color);
 }
 .work-type {
   font-weight: normal;
